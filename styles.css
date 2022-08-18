@@ -1,0 +1,17 @@
+body {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+input {
+    width: 80%;
+    padding: 3px;
+    margin: 3px;
+}
+
+textarea {
+    width: 80%;
+}
+
+hr {
+    margin: 15px 0;
+}

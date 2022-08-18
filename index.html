@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Cases creator</title>
+  </head>
+  <body>
+    <span>Type title in one row. Use symbol | to break a line!</span>
+    <div>
+      <input type="text" id="titleTitleSection" placeholder="Title">
+      <input type="text" id="headerImageAlt" placeholder="Image Alt">
+      <input type="text" id="headerImageTitle" placeholder="Image Title">
+    </div>
+    <hr>
+    <div>
+      <span>Technologies:</span>
+      <div>
+      <textarea type="text" id="challengeSubtitle" placeholder="Challenge subtitle"></textarea>
+      <textarea type="text" id="solutionSubtitle" placeholder="Solution subtitle"></textarea>
+      <textarea type="text" id="techStackSubtitle" placeholder="Tech stack subtitle"></textarea>
+      </div>
+    </div>
+    <hr>
+    <div>
+      <span>Client:</span>
+      <div>
+      <textarea type="text" id="subtitleClientSection" placeholder="Client subtitle"></textarea>
+      </div>
+    </div>
+    <hr>
+    <div>
+      <span>Challenge:</span>
+      <div>
+      <textarea type="text" id="challengeSectionTitle" placeholder="Challenge title"></textarea>
+      <div>
+        <div>
+          <span>Challenge list. Use symbol | to break a line!</span>
+        </div>
+        <textarea type="text" id="challengeSectionValue1" placeholder="Challenge list value (you can leave this field empty)"></textarea>
+        <textarea type="text" id="challengeSectionValue2" placeholder="Challenge list value (you can leave this field empty)"></textarea>
+        <textarea type="text" id="challengeSectionValue3" placeholder="Challenge list value (you can leave this field empty)"></textarea>
+        <textarea type="text" id="challengeSectionValue4" placeholder="Challenge list value (you can leave this field empty)"></textarea>
+        <textarea type="text" id="challengeSectionValue5" placeholder="Challenge list value (you can leave this field empty)"></textarea>
+        <textarea type="text" id="challengeSectionValue6" placeholder="Challenge list value (you can leave this field empty)"></textarea>
+        <textarea type="text" id="challengeSectionValue7" placeholder="Challenge list value (you can leave this field empty)"></textarea>
+        <textarea type="text" id="challengeSectionValue8" placeholder="Challenge list value (you can leave this field empty)"></textarea>
+        <textarea type="text" id="challengeSectionValue9" placeholder="Challenge list value (you can leave this field empty)"></textarea>
+        <textarea type="text" id="challengeSectionValue10" placeholder="Challenge list value (you can leave this field empty)"></textarea>
+      </div>
+      <div>
+        <span>Challenge image:</span>
+      </div>
+        <input type="text" id="challengeImageAlt" placeholder="Image Alt (you can leave this field empty)" >
+        <input type="text" id="challengeImageTitle" placeholder="Image Title (you can leave this field empty)">
+      </div>
+    </div>
+    <button id="button">Write file</button>
+    <script type="module" src="./renderer.js"></script>
+  </body>
+</html>
